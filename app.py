@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello World from Flask with several libraries!"
+    return "Hello World from Flask Panda!"
 
 if __name__ == '__main__':
     port= os.environ.get('PORT')
